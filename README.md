@@ -1,17 +1,10 @@
 ###Install
 
-- 
+-  composer install
+-  npm install / yarn
 
-    composer install
--  
+  
+####Run
 
-    npm install / yarn
-
-# Run
-
-- 
-
-    php bin/console server:run
--  
-
-    npm run watch / yarn watch
+- php bin/console server:run
+- npm run watch / yarn watch
