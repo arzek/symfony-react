@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
+import Test from './Test';
 export default class Example extends Component {
     render() {
         return (
-            <h1>Heee!!!</h1>
+            <div>
+                <h1>Heee!!!</h1>
+                <Test></Test>
+            </div>
         );
     }
 }
